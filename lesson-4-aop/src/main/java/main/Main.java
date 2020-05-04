@@ -12,7 +12,12 @@ public class Main {
             service.hello("John");
             System.out.println("===============");
             String res = service.hello2("George");
-            System.out.println("Returned from hello2: " + res);
+//            System.out.println("Returned from hello2: " + res);
+            System.out.println("===== Getters & Setters");
+            service.setServiceField("April");
+            service.setServiceField2(2020);
+            service.getServiceField();
+            service.getServiceField2();
         }
     }
 }
